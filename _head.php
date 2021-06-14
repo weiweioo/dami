@@ -28,7 +28,7 @@
   <link href="SRC/css/aos.css" rel="stylesheet" type="text/css" />
   <link href="SRC/js/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
 
- 
+
 
 </head>
 
@@ -50,9 +50,9 @@
                 DAMI
               </div>
             </div>
-            <!-- <div class="social-links">
-              <a href="#" class="google-plus"><i class='bx bxl-github'></i></a>
-            </div> -->
+            <div class="social-links">
+              <a target="blank" href="https://github.com/weiweioo/dami/blob/main/index.php" class="google-plus"><i class='bx bxl-github'></i></a>
+            </div>
           </div>
           <!--web menu -->
           <nav class="menubox">
@@ -76,6 +76,17 @@
             <div class="logo">
               <div class="per-pic">
                 <img src="SRC/images/profile.jpg" alt="DAMI" title="DAMI">
+              </div>
+              <div class="name">
+                <div class="ch">
+                  李瑋潔
+                </div>
+                <div class="en">
+                  DAMI
+                </div>
+              </div>
+              <div class="social-links">
+                <a target="blank" href="https://github.com/weiweioo/dami/blob/main/index.php" class="google-plus"><i class='bx bxl-github'></i></a>
               </div>
             </div>
             <!--web menu -->
