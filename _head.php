@@ -44,7 +44,7 @@
             </div>
             <div class="name">
               <div class="ch">
-                李瑋潔123
+                李瑋潔
               </div>
               <div class="en">
                 DAMI
