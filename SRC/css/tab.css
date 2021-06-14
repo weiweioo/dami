@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+	.abgne_tab {
+		clear: left;
+		width: 100%;
+		margin: 0px 0px 0px 0px; padding:0px 0 0 0;
+		height:auto; overflow: hidden;
+	}
+	ul.tabs {
+		width: 100%;
+		text-align:center;	
+		margin: 0px 0px 0px 0px; padding:15px 0; 
+		list-style: none;
+		height:auto; overflow: hidden;
+		border-bottom:2px solid #202020; 
+	}
+	ul.tabs li {
+	display:block; float: left;
+	padding:0px;
+	text-align:center;
+	margin:0 0 0px 0;
+	line-height:1.2;
+	font-size: 16px;
+	}
+	ul.tabs li a {
+		color:#888;  padding:15px 40px; 
+		
+	}
+	ul.tabs li a:hover {
+		background: #e9e9e9; 
+	}
+	ul.tabs li.active a{
+		color:#fff; font-weight:bold; background: #202020; padding:15px 40px; 
+	}
+	div.tab_container {
+		clear: left;
+		width: 100%;
+		border-top: none;
+		background: #fff;
+	}
+	div.tab_container .tab_content {
+		padding: 40px;
+	}
+	
+@media only screen and (min-width: 0px) and (max-width: 900px){
+	ul.tabs li a {
+		padding:15px 20px; 
+		
+	}	
+	ul.tabs li.active a{
+		padding:15px 20px; 
+	}
+div.tab_container .tab_content{
+  padding: 20px;
+  }
+}

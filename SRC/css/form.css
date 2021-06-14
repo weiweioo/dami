@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+.input-style{
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #333;
+    background:#fff;
+    border: 1px solid #B1B1B1;
+    border-radius: 3px;
+}
+.input-style02{
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #333;
+    background:#fff;
+    border: 1px solid #B1B1B1;
+    border-radius: 0px;
+}
+/* -表單-------------------------------------------------------------------------------------------------------*/
+.styled-input {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0px 0px 0px 0px; padding:0; list-style:none;
+}
+.styled-input li {
+	position: relative;
+	width: 100%;
+	margin: 30px 0px 0px 0px; padding:0; list-style:none;
+	font-size: 16px; color:#666;  background:none;
+}
+.styled-input li.half {
+	width: calc(50% - 10px);
+}
+.styled-input input[type="text"],
+.styled-input input[type="tel"],
+.styled-input input[type="email"],
+.styled-input input[type="password"]{
+	width:100%;
+	padding: 10px 10px 25px 150px;
+	height: 20px;
+	color: #666;
+	background-color: none;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	border: none;        
+	border-bottom: 2px solid #CACACA;
+
+	border-radius: 0;
+-webkit-appearance: none;
+
+}
+.styled-input textarea {
+	width:100%;
+	padding: 20px 15px;
+	height: 10px;
+	color: #666;
+	background-color: none;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	border: 2px solid #CACACA;
+
+	border-radius: 0;
+-webkit-appearance: none;
+
+}
+.styled-input input[type="text"].active,
+.styled-input input[type="email"].active,
+.styled-input textarea.active {
+	padding: 10px 10px 25px 150px;
+}
+.styled-input textarea {
+	resize: none;
+	height: 150px;
+	display: block;
+}
+.styled-input input[type="text"]:focus, .styled-input input[type="email"]:focus{
+	border-bottom: 2px solid #007580;
+	transition: 0.4s;
+}
+.styled-input textarea:focus{
+	border: 2px solid #007580;
+	transition: 0.4s;
+}
+.styled-input .label {
+	width: 100%;
+	font-size: 18px; color:#B1B1B1;
+	padding: 0px 0px 10px 18px;
+}
+.styled-input label {
+	position: absolute;
+	font-size: 18px; color:#B1B1B1;
+	top: 0px;
+	left: 18px;
+}
+.styled-input label.active {
+	visibility: visible;
+	opacity: 1;
+	margin-top:0px;
+}
+.styled-input label,
+.styled-input label.active {
+	-webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.styled-input ::-webkit-input-placeholder { font-size: 16px; color:#131313; }
+.styled-input ::-moz-placeholder { color: #888; }
+.styled-input :-ms-input-placeholder { color: #888; }
+.styled-input :-moz-placeholder { color: #888; }
+.styled-input .code {
+    padding: 0 0 0 0px;
+    display: flex;
+    align-items: center;
+}
+.styled-input .code .refresh img{
+    width: 25px;
+}
+@media only screen and (min-width: 0px) and (max-width: 900px){
+.styled-input li.half {
+	width: 100%;
+}
+.styled-input label {
+	top: -20px;
+	left: 0px;
+}
+.styled-input .label {
+	padding: 0px 0px 10px 0px;
+}
+.styled-input input[type="text"],
+.styled-input input[type="tel"],
+.styled-input input[type="email"],
+.styled-input input[type="password"]{
+	padding: 20px 10px 20px 0px;
+}
+}
+
+.styled-input02 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0px 30px 0px; padding:0 40% 0 0; list-style:none;
+}
+.styled-input02 dd {
+	position: relative;
+	margin: 0px 0px 0px 0px; padding:0; list-style:none; color: #666; background:none;
+}
+.styled-input02 dd a{
+	color: #bc2d41; font-weight:bold;
+}
+.styled-input02 dd.half {
+	width: calc(50% - 80px);
+}
+.styled-input02 dd.btn {
+	width: 120px;
+}
+.styled-input02 input[type="text"]{
+	width:calc(100% - 120px); 
+	padding: 6px 15px;
+	font-size: 16px;
+	color: #353535;
+	background-color: #fff;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+			border: 1px solid #B1B1B1;
+}
+.styled-input02 label {
+	float: left;
+	width: 120px;
+	font-size: 22px; font-weight: bold; color: #53575A;
+	padding: 0px 0px 0px 0px;
+}
+@media only screen and (min-width: 1201px) and (max-width: 1700px){
+.styled-input02 {
+	padding:0 20% 0 0 ; 
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 1200px){
+.styled-input02 {
+	padding:0 0 0 0; 
+}
+.styled-input02 dd {
+	margin: 10px 0px 0px 0px; 
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 1100px){
+.styled-input02 dd.half {
+	width: 100%;
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 650px){
+.styled-input02 {
+	margin:0 0 30px 0; 
+}
+.styled-input02 input[type="text"]{
+	width:100% ; 
+}
+.styled-input02 label {
+	width:100% ; 
+	padding: 0px 0px 8px 0px;
+}
+}
+
+.styled-input03 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 30px 0px 30px 0px; padding:0 0 0 0; list-style:none;
+}
+.styled-input03 dd {
+	position: relative;  
+	margin: 0px 0px 0px 0px; padding:0; list-style:none; color: #666; background:none;
+}
+.styled-input03 dd.btn {
+	margin: 0px 0px 0px 30px;
+}
+.styled-input03 label {
+	float: left;
+	width: 120px;
+	font-size: 22px; font-weight: bold; color: #53575A;
+	padding: 0px 0px 0px 0px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 650px){
+.styled-input03 {
+	margin:0 0 30px 0; 
+}
+.styled-input03 dd{
+	width:100%; margin: 10px 0px 0px 0px; 
+}
+.styled-input03 dd select{
+	width:100% ; 
+}
+.styled-input03 label {
+	width:100% ; 
+	padding: 0px 0px 8px 0px;
+}
+.styled-input03 dd.btn {
+	margin: 10px 0px 0px 0px;
+}
+}
